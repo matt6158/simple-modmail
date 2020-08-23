@@ -32,7 +32,7 @@ module.exports = async (client, message) => {
     .setColor("4f8edb")
     
     
-  client.channels.cache.get('746875750707232879').send(modmailEmbed)
+  client.channels.cache.get('716095041830912081').send(modmailEmbed)
 
     }
 }

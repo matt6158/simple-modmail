@@ -4,10 +4,8 @@ const util = require("util");
 
 module.exports = async (client) => {
 
-    client.user.setActivity('DMs', { type: 'LISTENING' });
-
-client.on('ready', () => {
+    client.user.setActivity('DMs | Donut Development', { type: 'LISTENING' });
+    
      console.log(`Running as ${client.user.tag}`);
-});
 
 }

@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 
-
 module.exports = async (client, message) => {
   
   const prefix = client.config.prefix;
@@ -20,5 +19,4 @@ module.exports = async (client, message) => {
 
   if (command) 
       command.run(client, message, args);
-  
 }

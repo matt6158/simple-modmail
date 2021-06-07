@@ -1,21 +1,18 @@
 const Discord = require("discord.js");
-//packges or const here!
+
 module.exports = {
-    name: "start",//aka the folder name without js
+    name: "start",
     aliases: ["start"],
-    category: "modmail",//this is what ever ever dir you are in (dev, info, moderation, music)
-    description: "Start a thread",
+    category: "modmail",
+    description: "Start a modmail thread",
     usage: "start",
-    dev: false,//if it is for the dev the true;
     run: async (client, message, args) => {
-//your code goes here!
 const start = new Discord.MessageEmbed()
   .setTitle(`Start Message Thread`)
-  .setDescription(`To start a message thread, please DM me and we will forword your message to the staff team!`)
+  .setDescription(`To start a message thread, please DM me and we will forward your message to the staff team!`)
   .setFooter(`Requested by: ${message.author.tag}`)
   .setColor("RANDOM")
 
-message.channel.send(start)
-//end code
+await message.channel.send(start)
   }
 }

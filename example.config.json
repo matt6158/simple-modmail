@@ -1,5 +1,8 @@
 {
     "developers": ["YOUR_ID_HERE"],
     "prefix": "m+",
-    "token": "YOUR_TOKEN_HERE"
+    "token": "YOUR_TOKEN_HERE",
+
+    "messagesChannel": "MESSAGES_CHANNEL_ID",
+    "modmailRole": "MODMAIL_ROLE_ID"
 }

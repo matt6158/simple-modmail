@@ -1,7 +1,7 @@
 {
-  "name": "modmail",
+  "name": "simple-modmail",
   "version": "0.0.1",
-  "description": "Modmail",
+  "description": "A simple discord.js modmail",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -16,7 +16,6 @@
     "moment": "^2.27.0",
     "node-fetch": "^2.6.0",
     "path": "0.12.7",
-    "random-puppy": "^1.1.0",
     "superagent": "^6.0.0"
   },
   "engines": {
